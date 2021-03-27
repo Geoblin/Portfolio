@@ -1,0 +1,106 @@
+*{
+    Margin:0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: darkred;
+    box-shadow: 0 2px 0 rgb(0, 0, 0 / 40%);
+    z-index: 10;
+    box-sizing: inherit;
+}
+@media (max-width: 500px){
+    justify-content: Center;
+    font-size: 55%;
+}
+ul{
+    list-style: none;
+    font-weight: bold;
+}
+.navbar a{
+    display: inline;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.navbar a:hover{
+    color: black;
+}
+.project-section{
+    background: #45567d;
+    padding: 4vh 10vh;
+    text-align: center;
+}
+.card{
+    margin: 0;
+    padding: 12;
+    box-sizing: border-box;
+}
+.row{
+    padding-left: 10vh;
+}
+a{
+    text-decoration: none;
+    color: silver;
+}
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+}
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    padding-top: 5rem;
+    color: silver;
+}
+h1{
+    font-size: 6rem;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h4{
+    color:black;
+
+}
+h2{
+    font-size: 4.2rem;
+    color: silver;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 700;
+    text-align: center;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    padding-top: 10rem;
+    color: silver;
+}
+.contact-links a, img{
+    color: silver;
+}
+.contact-links a:hover{
+    color: darkred;
+}
+.card-text{
+    color: silver;
+    font-weight: bold;
+}
+.card-text:hover{
+    color: darkred;
+}
