@@ -2,6 +2,23 @@
     Margin:0;
     padding: 0;
 }
+/*Phone CSS */
+@media screen and (max-width: 500px){
+.navbar{
+    position: fixed;
+    width: 0;
+}
+.card{
+    padding: 0;
+}
+.col-sm{
+    padding-left: 0;
+}
+.row{
+    padding-left: 0;
+}
+}
+/*Regular CSS */
 .navbar{
     display: flex;
     justify-content: flex-end;
@@ -13,10 +30,6 @@
     box-shadow: 0 2px 0 rgb(0, 0, 0 / 40%);
     z-index: 10;
     box-sizing: inherit;
-}
-@media (max-width: 500px){
-    justify-content: Center;
-    font-size: 55%;
 }
 ul{
     list-style: none;
@@ -41,7 +54,7 @@ ul{
     box-sizing: border-box;
 }
 .row{
-    padding-left: 10vh;
+    padding-left: 0;
 }
 a{
     text-decoration: none;
@@ -73,7 +86,7 @@ h4{
 
 }
 h2{
-    font-size: 4.2rem;
+    font-size: 3.7rem;
     color: silver;
 }
 h1, h2, h3, h4, h5{
