@@ -3,19 +3,38 @@
     padding: 0;
 }
 /*Phone CSS */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1024px){
 .navbar{
-    position: fixed;
-    width: 0;
+    position: fixed !important;
+    width: 100% !important;
+}
+.nav-list a{
+    padding: 1.3rem !important;
+}
+h1{
+    font-size: 3rem !important;
+    padding-top: 3rem !important;
+}
+h2{
+    font-size: 2rem !important;
+    padding-top: none !important;
 }
 .card{
-    padding: 0;
+    padding: 0 !important;
 }
 .col-sm{
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 .row{
-    padding-left: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.contact-links{
+    align-items: center !important;
+    padding: 5rem !important;
+}
+.col-sm{
+    padding-top: 1rem !important;
 }
 }
 /*Regular CSS */
@@ -54,7 +73,8 @@ ul{
     box-sizing: border-box;
 }
 .row{
-    padding-left: 0;
+    padding-left: 20rem;
+    padding-right: 10rem;
 }
 a{
     text-decoration: none;
@@ -78,6 +98,7 @@ a{
 h1{
     font-size: 6rem;
     display: block;
+    padding-top: 4rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -87,6 +108,7 @@ h4{
 }
 h2{
     font-size: 3.7rem;
+    padding-top: 3rem;
     color: silver;
 }
 h1, h2, h3, h4, h5{
