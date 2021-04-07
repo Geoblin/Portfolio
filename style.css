@@ -2,11 +2,39 @@
     Margin:0;
     padding: 0;
 }
+/*scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: darkred; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
 /*Phone CSS */
 @media screen and (max-width: 1024px){
+*{
+    width: 100%  !important;
+}
 .navbar{
     position: fixed !important;
     width: 100% !important;
+}
+.navbar a{
+    font-size: 1.2rem !important;
 }
 .nav-list a{
     padding: 1.3rem !important;
@@ -108,7 +136,7 @@ h4{
 }
 h2{
     font-size: 3.7rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     color: silver;
 }
 h1, h2, h3, h4, h5{
@@ -120,11 +148,14 @@ h1, h2, h3, h4, h5{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background-color: black;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-    padding-top: 10rem;
+    padding-top: 6rem;
     color: silver;
+}
+.contact-details{
+    padding-bottom: 1rem;
 }
 .contact-links a, img{
     color: silver;
